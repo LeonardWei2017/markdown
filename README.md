@@ -2,10 +2,12 @@
 markdown语法
 
 # 一、标题
+```
 在想要设置为标题的文字前面加#来表示
 一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。
 
 注：标准语法一般在#后跟个空格再写文字，
+```
 示例：
 # 这是一级标题
 ## 这是二级标题
@@ -48,3 +50,26 @@ markdown语法
 示例：
 
 ![blockchain](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=702257389,1274025419&fm=27&gp=0.jpg "区块链")
+
+## 上传本地图片直接点击导航栏的图片标志，选择图片即可
+
+# 六、超链接
+```
+
+[超链接名](超链接地址 "超链接title")
+title可加可不加
+```
+
+示例：
+
+[简书](http://jianshu.com)
+[百度](http://baidu.com)
+
+注：Markdown本身语法不支持链接在新页面中打开，貌似简书做了处理，是可以的。别的平台可能就不行了，如果想要在新页面中打开的话可以用html语言的a标签代替。
+
+<a href="超链接地址" target="_blank">超链接名</a>
+
+示例
+<a href="https://www.jianshu.com/u/1f5ac0cf6a8b" target="_blank">简书</a>
+
+
